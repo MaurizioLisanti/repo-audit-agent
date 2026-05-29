@@ -1,0 +1,16 @@
+# repo-audit-agent dependencies
+# 
+# The only runtime dependency is Hermes Agent itself.
+# Install it with:
+#   curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
+#
+# Python standard library modules used:
+#   - subprocess (invoke Hermes Agent)
+#   - sys (CLI exit codes)
+#   - os (environment variables)
+#   - json (parse API responses)
+#   - argparse (CLI argument parsing)
+#   - datetime (report timestamps)
+#   - pathlib (file path handling)
+#
+# No additional pip packages required.
